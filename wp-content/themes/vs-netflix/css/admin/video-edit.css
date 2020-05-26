@@ -1,0 +1,22 @@
+.rvs-trailer-type-area {
+    display: none;
+}
+
+#rvs-enabled-trailer {
+    float: right;
+    margin: 5px 0 0;
+}
+
+input#trailer-youtube-video-url {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 3px;
+}
+
+#rvs-thumbnail-image-container {
+    margin: 0 0 10px;
+}
+
+#rvs-thumbnail-image-container img {
+    max-width: 100%;
+}

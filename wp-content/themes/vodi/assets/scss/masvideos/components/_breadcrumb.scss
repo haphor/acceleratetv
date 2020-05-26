@@ -1,0 +1,28 @@
+.masvideos-breadcrumb {
+    font-size: 14px;
+    margin-bottom: 14px;
+
+    a {
+        color: #949cb0;
+        display: inline-block;
+        
+        @include hover-focus() {
+            color: $vodi-primary-color;
+        }
+    }
+
+    .delimiter {
+        display: inline-block;
+        margin: 0 10px;
+
+        [dir="rtl"] & {
+            transform: rotate(-180deg);
+            position: relative;
+            top: 2px;
+        }
+    }  
+}
+
+.dark .delimiter path {
+    fill: #949cb0;
+}

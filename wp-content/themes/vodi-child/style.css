@@ -1,0 +1,151 @@
+/*
+Theme Name:     Vodi Child
+Theme URI:      https://demo2.madrasthemes.com/vodi/
+Author:         MadrasThemes
+Author URI:     https://themeforest.net/user/madrasthemes/
+Description:    This is the child theme for the vodi theme
+Template:       vodi
+Version:        1.1.8
+License:        GNU General Public License v2 or later
+License URI:    https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    vodi-child
+Tags:           two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+*/
+
+/* By Emmanuel */
+.site-header__logo {
+    max-width: 120px;
+}
+ul#menu-primary-menu a {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Rajdhani", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+}
+.site-header.dark .search-form .search-field {
+    color: #fff;
+    background: #2b2b2b;
+    border-color: #646469;
+}
+h2.section-title, 
+h5.has-text-color {
+    font-size: 26px;
+    color: #f6931d !important;
+}
+@media (min-width: 992px) {
+	body.full-width .alignwide {
+		margin-left: calc(27% - 25vw) !important;
+		margin-right: calc(27% - 25vw) !important;
+	}
+}
+.article__date, 
+.article__comments {
+    display: none;
+}
+
+body #page a {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+/*   margin: 1em;
+  padding: 1em 2em;
+  box-shadow: inset 0 0 0 2px #f45e61;
+  font-size: inherit;
+  font-weight: 700; */
+  position: relative;
+  vertical-align: middle;
+  transition: color 0.25s;
+}
+body #page a::before, body #page a::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  border: 1px solid transparent;
+  width: 0;
+  height: 0;
+}
+body #page a::before {
+  top: 0;
+  left: 0;
+}
+body #page a::after {
+  right: 0;
+  bottom: 0;
+}
+body #page a:hover {
+  color: #fff !important;
+}
+body #page a:hover::before, body #page a:hover::after {
+  width: 100%;
+  height: 100%;
+}
+body #page a:hover::before,
+ul#menu-primary-menu .current-menu-item a:before,
+ul#menu-primary-menu .current_page_parent a:before {
+  border-top-color: #004185;
+  border-right-color: #f5821f;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+body #page a:hover::after,
+ul#menu-primary-menu .current-menu-item a:after,
+ul#menu-primary-menu .current_page_parent a:after {
+  border-left-color: #004185;
+  border-bottom-color: #f5821f;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+ul#menu-primary-menu a::before {
+  left: 0;
+  top: 20%;
+}
+
+ul#menu-primary-menu a::after {
+  right: 0;
+  width: 6%;
+  bottom: 20%;
+  height: auto;
+}
+
+ul#menu-primary-menu a:hover::after,
+ul#menu-primary-menu a:hover::before,
+ul#menu-primary-menu .current-menu-item a:after,
+ul#menu-primary-menu .current-menu-item a:before,
+ul#menu-primary-menu .current_page_parent a:after,
+ul#menu-primary-menu .current_page_parent a:before {
+  width: 100%;
+  height: 60%;
+}
+.site_header__primary-nav .menu-item-has-children > a:hover::after,
+.site_header__primary-nav .menu-item-has-children.current-menu-item a:after,
+.site_header__primary-nav .menu-item-has-children.current_page_parent a:after {
+  top: 20%;
+  background-position: left center !important;
+}
+ul#menu-primary-menu .sub-menu a:hover {
+    color: #004185 !important;
+}
+ul#menu-primary-menu .sub-menu a::before {
+  left: 0;
+  top: 5%;
+  height: 90%;
+}
+
+ul#menu-primary-menu .sub-menu a::after {
+  right: 0;
+  bottom: 5%;
+  height: 90%;
+}
+body #page a {
+  width: auto;
+  display: inline-block;
+}
+body #page h2 a:after, 
+body #page h2 a:before,
+.site-header__logo a:after,
+.site-header__logo a:before {
+  content: none !important;
+}
+.episode__poster a {
+  display: block !important;
+}

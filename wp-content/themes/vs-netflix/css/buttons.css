@@ -1,0 +1,63 @@
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 1em 0;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    background:#E50914;
+    transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    color: #ffffff;
+}
+
+.button.wpvs-play-button {
+    margin: 20px 0;
+    position: relative;
+    padding: 6px 8px 6px 12px;
+}
+
+.button.wpvs-play-button  .dashicons {
+    vertical-align: sub;
+}
+
+.wpvs-add-to-list .dashicons {
+    vertical-align: middle;
+    transition: none;
+}
+
+.button.wpvs-add-to-list {
+    background: none;
+    margin: 20px 0;
+}
+
+.vs-drop-details .button.wpvs-add-to-list {
+    margin: 0 0 20px 5px;
+}
+
+.button.large {
+    font-size: 24px;
+}
+
+/* ==== GUTENBERG ==== */
+
+.wp-block-button .wp-block-button__link {
+    padding: 6px 12px;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    background:#E50914;
+    transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+.button.large {
+    font-size: 34px;
+}
+}
