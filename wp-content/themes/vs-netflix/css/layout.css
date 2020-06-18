@@ -1,0 +1,154 @@
+/* ==== ALIGNMENT ==== */
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+/* ==== HEADINGS ==== */
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+.no-margin-title {
+    margin: 0 0 0.7em;
+}
+
+/* ==== COMMENTS ==== */
+
+.comment-content {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-bottom: 1em;
+    clear: both;
+}
+
+.comment .vcard img {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.comment p {
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    padding: 0.75em;
+    margin: 0;
+}
+
+.wpvs-user-video-rating {
+    padding: 0 0.75em;
+}
+
+.comment .comment-meta {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.comment-list {
+    margin: 20px 0 0;
+}
+
+form.comment-form label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+form.comment-form .comment-form-cookies-consent label {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], input[type="number"], textarea, form.comment-form input[type="text"], form.comment-form input[type="email"], form.comment-form input[type="password"], form.comment-form textarea, select {
+    -webkit-appearance: none;
+    padding: 8px 5px;
+    outline: none;
+    margin: 10px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 4px;
+}
+#respond {
+    clear: both;
+}
+
+/* ==== Tables ==== */
+
+table {
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 15px;
+}
+
+/* ==== FRONT END ADMIN ==== */
+
+.vs-note {
+    font-size: 12px;
+    display: block;
+}
+
+/* SMALL SCREENS */
+@media screen and (min-width: 480px) {
+
+}
+
+/* TABLETS (Portrait) */
+
+@media screen and (min-width: 680px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* TABLETS (Landscape) */
+
+@media screen and (min-width: 960px) {
+    
+}
+
+/* LAPTOPS */
+
+@media screen and (min-width: 1200px) {
+      
+    
+}
+
+@media screen and (min-width: 1490px) {
+    
+
+}

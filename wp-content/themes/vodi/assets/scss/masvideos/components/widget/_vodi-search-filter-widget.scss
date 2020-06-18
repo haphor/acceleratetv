@@ -1,0 +1,27 @@
+.masvideos_widget_search {
+    margin-bottom: 21px !important;
+
+    .search-field {
+        border-radius: 0;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.025em;
+        font-family: $ms;
+        padding: 12.5px 20px;
+
+        &:focus + button:after {
+            content: none;
+        }
+    }
+
+    .masvideos-search {
+        position: relative;
+        display: flex;
+    }
+
+    button {
+        font-size: 0;
+        padding: 0;
+        border: 0;
+    }
+} 
